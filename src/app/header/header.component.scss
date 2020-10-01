@@ -1,0 +1,56 @@
+.logo {
+  width: 162px;
+  height: 33px;
+}
+
+.lifeStorie {
+  width: 88px;
+  height: 14px;
+  color: #ffffff;
+  font-family: "AktivGrotesk-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.navbar-toggler.collapsed>.close {
+  display:inline;
+}
+
+// .navbar-toggler.collapsed>.close {
+//   display:inline;
+// }
+.navbar-toggler{
+  border:none !important ;
+  border-radius: 0px !important;
+  background-color: none !important;
+}
+.navbar-toggler.collapsed{
+  border:none !important ;
+  border-radius: 0px !important;
+
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url('../../assets/images/hamburgerIcon.png');
+  width: 20px;
+  height: 20px;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+  display:none;
+}
+.ourVision {
+  width: 83px;
+  height: 14px;
+  color: #ffffff;
+  font-family: "AktivGrotesk-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+

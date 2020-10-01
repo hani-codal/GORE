@@ -1,0 +1,4 @@
+<app-header (lifestories)="isLifeStory($event)" (vision)="isVision($event)" (checkhome) ="checkHome($event)"></app-header>
+<h1 *ngIf="isHome">welcome to home page</h1>
+<app-life-stories *ngIf="checkLifeStory"  ></app-life-stories>
+<app-vision *ngIf="checkVision"></app-vision>
