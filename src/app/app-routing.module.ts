@@ -1,28 +1,27 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { LifeStoriesComponent } from './life-stories/life-stories.component';
-import { VisionComponent } from './vision/vision.component';
 
 
 const routes: Routes = [
   {
     path :'',
-    redirectTo:'home',
+    redirectTo:'main',
     pathMatch : 'full'
   },
-  {
-    path:'home',
-    component:AppComponent
-  },
-  {
-    path : 'life-stories',
-    component:LifeStoriesComponent
-  },
-  {
-    path : 'vision',
-    component : VisionComponent
-  }
+  // {
+  //   path:'main',
+  //   component:MainComponent
+  // },
+  // {
+  //   path : 'main/life-stories',
+  //   component:LifeStoriesComponent
+  // },
+  // {
+  //   path : 'main/vision',
+  //   component : VisionComponent
+  // },
+  {path:'main', loadChildren: ()=> import('./main/main.module').then((m)=> m.MainModule)},
 ];
 
 @NgModule({

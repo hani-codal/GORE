@@ -1,20 +1,21 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-dark pt-4" >
-  <a class="navbar-brand" [routerLink]="'home'" class="logo" (click)="checkHome()" style="margin-left: 5vw; margin-right: 21vw;" ><img src="../../assets/images/Logo-white.png" /></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon" ></span>
-    <span class="my-1 mx-2 close" style="color: #ffffff; font-weight: 300; font-size: 28px;float: right;">X</span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav" >
-    <ul class="navbar-nav" >
-      <li class="nav-item">
-        <a class="nav-link" routerLink = "vision" class="ourVision mx-4" (click)="onvisionChange()">OUR VISION</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink = "life-stories" class="lifeStorie mx-4" (click)="onRouteChange()">LIFE STORIES</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light pt-4 pb-4" >
+    <a class="navbar-brand" [routerLink]="'home'" class="logo" (click)="checkHome()" style="margin-left: 5vw; margin-right: 21vw;" ><img src="../../assets/images/Logo-white.png" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" ></span>
+      <span class="my-1 mx-2 close" style="color: #ffffff; font-weight: 300; font-size: 28px;float: right;">X</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" >
+      <ul class="navbar-nav" >
+        <li class="nav-item">
+          <a class="nav-link" routerLink = "vision" class="ourVision mx-4" (click)="onvisionChange()">OUR VISION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink = "life-stories" class="lifeStorie mx-4" (click)="onRouteChange()">LIFE STORIES</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 <!-- for black
    <nav class="navbar navbar-expand-lg navbar-light">
