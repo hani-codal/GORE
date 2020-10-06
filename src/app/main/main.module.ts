@@ -5,13 +5,15 @@ import { LifeStoriesComponent } from './life-stories/life-stories.component';
 import { MainComponent } from './main.component';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
+import { LatestStoryComponent } from './latest-story/latest-story.component';
 
 @NgModule({
   declarations: [
     VisionComponent,
     LifeStoriesComponent,
     MainComponent,
-    HomeComponent
+    HomeComponent,
+    LatestStoryComponent
   ],
   imports: [
     CommonModule,

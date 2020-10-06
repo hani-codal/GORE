@@ -1,0 +1,69 @@
+.rectangle {
+  height: 480px;
+  width: 280px;
+  // background-color: #F891A5;
+  display: inline-block;
+  margin-right: 20px;
+}
+.reimagining-city {
+  height: 120px;
+  width: 242px;
+  color: #FFFFFF;
+  font-family: Courier;
+  font-size: 36px ;
+  letter-spacing: 0.2px;
+  line-height: 40px;
+  white-space: normal;
+}
+.div-block{
+  padding-left  : 26px;
+  padding-top: 36.8px;
+}
+.by-m-lastname {
+  height: 17px;
+  width: 121px;
+  color: #FFFFFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: -0.05px;
+  line-height: 17px;
+}
+.img-style{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 23px 40px 0px 40px;
+}
+.btn-style{
+color: #FFFFFF;
+margin-left: 17px;
+width: 42px;
+height: 42px;
+font-size: 42px;
+margin-bottom: 13px;
+// background-color: #F891A5;
+border-radius: 50%;
+}
+.icon-arrows-carrot{
+  font-size: 22px;
+  color: #F891A5;
+}
+.card {
+  display: inline-block;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin-bottom: 81px;
+
+}
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.sub-scrolling-wrapper{
+  overflow:auto;
+  overflow-x: scroll;
+}
+

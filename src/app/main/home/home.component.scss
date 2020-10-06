@@ -101,6 +101,7 @@
 
 .background-2{
     background: linear-gradient(180deg, #F6F5F4 0%, #EEEDEB 100%);
+    // border-bottom-left-radius: 20px;
 }
 .div-block2{
   margin-left: 129px;
@@ -123,7 +124,31 @@
   line-height: 14px;
   margin-left:533px;
 }
-
+.div-text{
+  margin-bottom: 41px;
+}
+.background-3{
+  background-color: #FFFFFF;
+}
+.viev-exists{
+  margin:89px 341px 0px 298px;
+  height: 597px;
+  width: 801px;
+  color: #244C5A;
+  font-family: "Aktiv Grotesk";
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 62px;
+}
+.arrow-style{
+  font-size: 24px;
+  color:#00968F ;
+}
+.background-4 {
+  height: 340px;
+  background-color: #DEDAD6;
+}
 @media only screen and (max-width: 411px) {
     .lifestyle{
       display: none;
@@ -140,6 +165,18 @@
   }
   .hr-style{
     margin-right: 20px;
+  }
+  .viev-exists{
+    margin-left: 35px ;
+    margin-right: 27px;
+    font-size: 28px;
+    // white-space: normal;
+    width: 253px;
+    word-wrap: break-word;
+    line-height: 36px;
+    br{
+      display: none;
+    }
   }
 
 }

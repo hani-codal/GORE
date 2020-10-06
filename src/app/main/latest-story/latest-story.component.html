@@ -1,0 +1,19 @@
+<div class="scrolling-wrapper">
+    <div *ngFor="let story of stories" class=" rectangle">
+      <div [ngStyle]="{'background-color':story.bgColor}">
+        <div class="div-block">
+          <p class="reimagining-city">
+            {{story.title}}
+          </p>
+          <p class="by-m-lastname">
+            by H.Joshi
+          </p>
+        </div>
+          <img class="img-style" src="../../../assets/images/ocean.jpg" >
+          <div class="">
+            <i class='fas fa-chevron-circle-right btn-style'  [ngStyle]="{'background-color':story.bgColor}" ></i>
+          </div>
+      </div>
+
+    </div>
+  </div>
